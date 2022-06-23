@@ -9,7 +9,7 @@
 import SwiftUI
 import pjd_teamview
 
-@available(macOS 11.0, *)
+@available(macOS 13.0, *)
 struct ContentView: View {
     
     @State private var users : [Datum] = [Datum]()
