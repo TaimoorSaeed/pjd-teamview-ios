@@ -7,13 +7,11 @@
 
 import SwiftUI
 
-@available(macOS 13.0, *)
 @main
 struct jsonModuleServiceSwiftUIApp: App {
-    @available(macOS 13.0, *)
     var body: some Scene {
         WindowGroup {
-//            ContentView()
+            ContentView()
         }
     }
 }

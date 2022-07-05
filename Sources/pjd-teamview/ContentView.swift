@@ -8,13 +8,11 @@
 
 import SwiftUI
 
-@available(macOS 13.0, *)
 struct ContentView: View {
-    @available(iOS 13.0, *)
+    
     @State private var users : [Datum] = [Datum]()
     @State var headers: [String] = ["Upcoming","Past"]
     
-    @available(iOS 13.0, *)
     var body: some View {
         NavigationView {
             VStack {
